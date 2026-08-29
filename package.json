@@ -1,0 +1,17 @@
+{
+  "name": "fashion-identity-ecosystem",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Fashion catalog and identity-progression image orchestration MVP.",
+  "scripts": {
+    "seed": "node scripts/build-seed-data.mjs",
+    "build:site": "node scripts/build-static-site.mjs",
+    "start": "node src/server.mjs",
+    "test": "node --test",
+    "verify": "npm run seed && npm test"
+  },
+  "engines": {
+    "node": ">=24"
+  }
+}
