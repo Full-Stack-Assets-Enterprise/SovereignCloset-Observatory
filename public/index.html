@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080611">
+  <meta name="description" content="Rare One Autonomy Observatory — a private, constitutional fashion intelligence system.">
+  <title>Rare One — Autonomy Observatory</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="ambient-grid" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="brand" href="#observatory" aria-label="Rare One Autonomy Observatory home">
+      <span class="brand-mark">R1</span>
+      <span><strong>RARE ONE</strong><small>AUTONOMY OBSERVATORY</small></span>
+    </a>
+    <div class="autonomy-badge"><span></span><span id="runtime-label">FULL AUTONOMY · INTERNAL ONLY</span></div>
+  </header>
+
+  <main>
+    <section class="hero" id="observatory">
+      <div class="hero-copy-block">
+        <p class="eyebrow">SOVEREIGN CLOSET / FULLY AUTONOMOUS ITERATION</p>
+        <h1>Watch the system learn how to style you.</h1>
+        <p class="hero-copy">A constitutional fashion intelligence loop that observes the wardrobe world, discovers gaps, compiles style, tests counterfactuals, simulates purchase impact, and evolves its own internal policy—without spending, publishing, or contacting anyone.</p>
+        <div class="hero-actions">
+          <button class="primary" id="run-cycle" type="button"><span>Run autonomous cycle</span><i aria-hidden="true">↗</i></button>
+          <div id="cycle-status" class="cycle-status" role="status" aria-live="polite">System ready. No external side effects are permitted.</div>
+        </div>
+      </div>
+      <aside class="system-card" aria-label="Autonomous system status">
+        <div class="system-card-head"><span>SYSTEM STATE</span><strong><i></i> LEARNING-READY</strong></div>
+        <div class="system-orbit" aria-hidden="true"><span>R1</span><i></i><i></i><i></i></div>
+        <dl>
+          <div><dt>Branch</dt><dd id="branch-name">iteration/fully-autonomous</dd></div>
+          <div><dt>Provider calls</dt><dd>0</dd></div>
+          <div><dt>External actions</dt><dd>0</dd></div>
+          <div><dt>Authority mode</dt><dd>Internal learning</dd></div>
+        </dl>
+      </aside>
+    </section>
+
+    <section class="metrics" id="autonomy-metrics" aria-label="Autonomy metrics"></section>
+
+    <nav class="tabs" aria-label="Application sections">
+      <button class="tab active" data-view="observatory">Observatory</button>
+      <button class="tab" data-view="world">World Model</button>
+      <button class="tab" data-view="evolution">Evolution Lab</button>
+      <button class="tab" data-view="catalog">Catalog</button>
+      <button class="tab" data-view="seeds">200 Seeds</button>
+    </nav>
+
+    <section class="view active" id="observatory-view">
+      <div class="section-head">
+        <div><p class="eyebrow">AGENT SOCIETY</p><h2>Live Topology</h2></div>
+        <p class="section-note">Ten agents · five modules · one constitutional envelope</p>
+      </div>
+      <div class="agent-grid" id="agent-grid"></div>
+
+      <div class="observatory-grid">
+        <article class="panel timeline-panel">
+          <div class="panel-head">
+            <div><p class="eyebrow">EVIDENCE SPINE</p><h2>Latest causal cycle</h2></div>
+            <span class="panel-state" id="latest-decision">AWAITING CYCLE</span>
+          </div>
+          <div class="cycle-timeline" id="cycle-timeline"></div>
+        </article>
+
+        <aside class="panel constitution-panel">
+          <div class="panel-head"><div><p class="eyebrow">NON-LEARNABLE</p><h2>Constitution</h2></div></div>
+          <div class="constitution-signal" id="constitution-signal"><i></i><span>Hard constraints armed</span></div>
+          <div class="constitution-list">
+            <div><span>Identity continuity</span><strong>LOCKED</strong></div>
+            <div><span>Terminal gauges</span><strong>EXACTLY 5 IN</strong></div>
+            <div><span>Aging progression</span><strong>PROHIBITED</strong></div>
+            <div><span>Output format</span><strong>STANDALONE</strong></div>
+            <div><span>External spending</span><strong>DENIED</strong></div>
+            <div><span>Publishing authority</span><strong>DENIED</strong></div>
+          </div>
+          <p class="boundary-copy">The system may evolve prompts, rankings, curricula, critics, and internal policy genomes. It cannot evolve its own authority.</p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="view" id="world-view">
+      <div class="section-head">
+        <div><p class="eyebrow">TEMPORAL BELIEF SYSTEM</p><h2>World Model</h2></div>
+        <p class="section-note">Observation ≠ belief ≠ prediction ≠ simulation</p>
+      </div>
+      <div class="world-summary" id="world-model"></div>
+      <div class="world-grid">
+        <article class="panel">
+          <div class="panel-head"><div><p class="eyebrow">BELIEF REGISTRY</p><h2>Current state</h2></div></div>
+          <div class="belief-list" id="belief-list"></div>
+        </article>
+        <aside class="panel gap-panel">
+          <div class="panel-head"><div><p class="eyebrow">AUTONOMOUS DIAGNOSIS</p><h2>Active wardrobe gap</h2></div></div>
+          <div id="gap-card" class="empty-state">Run a cycle to let the graph diagnose its first high-leverage gap.</div>
+          <div class="truth-legend" aria-label="Evidence type legend">
+            <span><i class="observation"></i>Observation</span>
+            <span><i class="belief"></i>Belief</span>
+            <span><i class="prediction"></i>Prediction</span>
+            <span><i class="constitutional"></i>Constitution</span>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="view" id="evolution-view">
+      <div class="section-head">
+        <div><p class="eyebrow">RECURSIVE IMPROVEMENT</p><h2>Evolution Lab</h2></div>
+        <p class="section-note">Champion → challenger → audit → internal promotion</p>
+      </div>
+      <div class="evolution-top">
+        <article class="panel policy-panel" id="active-policy"></article>
+        <article class="panel module-map">
+          <div class="panel-head"><div><p class="eyebrow">IMMEDIATE PACKAGE</p><h2>Five-module loop</h2></div></div>
+          <div class="module-flow">
+            <div><span>01</span><strong>Wardrobe Graph</strong><small>Find structural gaps</small></div>
+            <div><span>02</span><strong>Style Compiler</strong><small>Emit typed Style IR</small></div>
+            <div><span>03</span><strong>Counterfactual Engine</strong><small>Hold one variable</small></div>
+            <div><span>04</span><strong>Purchase Impact</strong><small>Simulate, never transact</small></div>
+            <div><span>05</span><strong>Meta-Learning</strong><small>Evolve internal policy</small></div>
+          </div>
+        </article>
+      </div>
+
+      <div class="section-head compact"><div><p class="eyebrow">SIMULATED WORLDS</p><h2>Counterfactual frontier</h2></div></div>
+      <div class="counterfactual-grid" id="counterfactual-grid"><div class="empty-state">No counterfactual worlds yet.</div></div>
+
+      <div class="evolution-bottom">
+        <article class="panel purchase-panel">
+          <div class="panel-head"><div><p class="eyebrow">CAPITAL INTELLIGENCE</p><h2>Purchase impact</h2></div></div>
+          <div id="purchase-impact" class="empty-state">The simulator has not evaluated a candidate.</div>
+        </article>
+        <article class="panel history-panel">
+          <div class="panel-head"><div><p class="eyebrow">POLICY LINEAGE</p><h2>Cycle history</h2></div></div>
+          <div id="cycle-history"></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="view" id="catalog-view">
+      <div class="section-head">
+        <div><p class="eyebrow">CATALOG WORLD MODEL</p><h2>Fashion entities</h2></div>
+        <div class="filters"><input id="product-search" type="search" placeholder="Search products" aria-label="Search catalog"><select id="category-filter" aria-label="Filter catalog category"><option value="">All categories</option><option>outerwear</option><option>clothing</option><option>footwear</option><option>jewelry</option><option>accessories</option></select></div>
+      </div>
+      <div class="card-grid" id="product-grid"></div>
+    </section>
+
+    <section class="view" id="seeds-view">
+      <div class="section-head">
+        <div><p class="eyebrow">IMMUTABLE BENCHMARK 053–252</p><h2>200 outfit seeds</h2></div>
+        <div class="filters"><input id="prompt-search" type="search" placeholder="Search seed corpus" aria-label="Search outfit seeds"></div>
+      </div>
+      <div class="prompt-list" id="prompt-list"></div>
+    </section>
+  </main>
+
+  <footer>
+    <span>RARE ONE / AUTONOMY OBSERVATORY</span>
+    <p>Private fixture-backed learning · no paid generation · no transactions · no publishing</p>
+  </footer>
+  <script type="module" src="./app.js"></script>
+</body>
+</html>
