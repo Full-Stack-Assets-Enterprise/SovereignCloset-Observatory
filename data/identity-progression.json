@@ -1,0 +1,74 @@
+[
+  {
+    "id": "baseline",
+    "label": "Baseline",
+    "month": 0,
+    "physique": "approximately 185 lb with a 34-inch waist, current real-world muscular base and honest body-fat distribution",
+    "hair": "current real-world hair condition represented honestly",
+    "facialHair": "narrow sculpted beard, very thin clean mustache, and one narrow eyebrow slit",
+    "gauges": "current large black ear jewelry, fully visible",
+    "tattoos": "only established current tattoos; preserve every existing design and placement",
+    "presence": "grounded and deliberately composed",
+    "wardrobeBias": "heavyweight black basics with controlled proportions"
+  },
+  {
+    "id": "foundation",
+    "label": "Foundation",
+    "month": 3,
+    "physique": "early training progress with improved posture and modest shoulder, chest, and arm firmness",
+    "hair": "short clean black hair with only biologically plausible early improvement",
+    "facialHair": "narrow sculpted beard, very thin clean mustache, and one narrow eyebrow slit",
+    "gauges": "large black ear jewelry, fully visible and anatomically plausible",
+    "tattoos": "established tattoos preserved; only clearly planned additions may appear",
+    "presence": "more deliberate, alert, and self-assured",
+    "wardrobeBias": "structured heavyweight tees, dark denim, and substantial footwear"
+  },
+  {
+    "id": "development",
+    "label": "Development",
+    "month": 6,
+    "physique": "visible upper-body development with broader shoulders, fuller chest, stronger arms, and a realistic midsection",
+    "hair": "short black hair with stabilized grooming and realistic density improvement",
+    "facialHair": "narrow precisely lined beard, very thin mustache, and one narrow eyebrow slit",
+    "gauges": "progressively larger glossy black ear jewelry, fully visible",
+    "tattoos": "existing designs preserved with the first major cohesive black-and-grey additions",
+    "presence": "confident without looking staged",
+    "wardrobeBias": "fitted heavyweight tops, relaxed trousers, premium sneakers, and restrained jewelry"
+  },
+  {
+    "id": "emergence",
+    "label": "Identity Emergence",
+    "month": 12,
+    "physique": "clear V-taper with meaningfully developed delts, chest, back, and arms while retaining natural anatomy",
+    "hair": "dense-looking short black hair moving toward a clean 360-wave pattern without artificial color",
+    "facialHair": "narrow sculpted beard, very thin sharply defined mustache, and one narrow eyebrow slit",
+    "gauges": "very large glossy black tunnels or filled plugs, fully exposed",
+    "tattoos": "cohesive black-and-grey chest, arm, and neck work integrating every established design with concentrated crimson accents",
+    "presence": "immediately recognizable, commanding, and approachable",
+    "wardrobeBias": "luxury monochrome, tattoo-forward layers, wider trousers, and stronger jewelry"
+  },
+  {
+    "id": "integration",
+    "label": "Full Integration",
+    "month": 24,
+    "physique": "highly muscular masculine V-taper with large delts, chest, arms, and back, a controlled waist, and realistic proportions",
+    "hair": "short dense black 360 waves with a razor-clean natural hairline and low taper",
+    "facialHair": "narrow sculpted beard with crisp cheek and jaw lines, very thin mustache, and one narrow eyebrow slit",
+    "gauges": "near-terminal glossy black tunnels or filled plugs, symmetrical, healthy-looking, and fully visible",
+    "tattoos": "near-complete cohesive black-and-grey body coverage retaining all established designs, with controlled crimson accents and the RARE ONE back composition underway",
+    "presence": "formidable, polished, expensive, urban, and intentionally approachable",
+    "wardrobeBias": "high-end street luxury with tattoos, physique, and jewelry carrying the composition"
+  },
+  {
+    "id": "north-star",
+    "label": "North Star",
+    "month": 36,
+    "physique": "extremely muscular masculine V-taper with massive delts, chest, arms, and back, a tight controlled waist, and photorealistic natural anatomy",
+    "hair": "short dense black 360 waves with a razor-clean natural hairline, sharp temple corners, and a clean low taper; no required colored detailing",
+    "facialHair": "narrow refined beard with crisp faded sideburns and strong chin density, a very thin sharply defined mustache, and one narrow eyebrow slit",
+    "gauges": "terminal 5-inch glossy black tunnels or filled plugs, symmetrical, healthy-looking, visually dominant, and fully exposed",
+    "tattoos": "complete cohesive black-and-grey body coverage retaining all established designs and placements, with concentrated crimson accents and a monumental legible RARE ONE back composition",
+    "presence": "muscular, tattooed, polished, expensive, urban, slightly aggressive, and intentionally approachable",
+    "wardrobeBias": "ultimate high-end luxury, streetwear, hypebeast, and rap-luxury expression"
+  }
+]
